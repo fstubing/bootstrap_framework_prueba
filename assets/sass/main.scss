@@ -1,0 +1,19 @@
+////paleta colores////
+
+$fondo-verde: #cad2c5 !default;
+$letra-titulos: #fff !default;
+$letra-sub: #3c5b6f !default;
+$html-color: #e72929 !default;
+$css-color: #5356ff !default;
+$sass-color: #fb9ad1 !default;
+$bootstrap-color: #5e1675 !default;
+$git-color: #dc6b19 !default;
+$js-color: #f7c566 !default;
+$vue-color: #41b06e !default;
+$card-fondo: #b9b4c7 !default;
+$primary: $letra-titulos;
+$secondary: $card-fondo;
+$success: $fondo-verde;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./testimonios-container";

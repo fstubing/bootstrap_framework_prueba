@@ -1,0 +1,37 @@
+.testimonios-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+  margin: 40px;
+}
+.testimonios-container__articulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__imagen {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 1px #fff;
+  }
+
+  &__parrafo {
+    text-decoration: dashed;
+    text-align: center;
+    color: #dfd0b8;
+  }
+
+  &__nombre {
+    color: #dfd0b8;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .testimonios-container {
+    flex-direction: column;
+  }
+}
